@@ -1,0 +1,48 @@
+body{
+
+}
+.bg-color{
+background:#57D9C6;
+}
+.banner{
+width:100%;
+height:93vh;
+background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,0.6)),url("../img/banner.webp");
+background-size:cover;
+color:white;
+
+}
+
+.mycard{
+    padding:20;
+}
+
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+/* slidebar css */
+.sidebar{
+width:18%;
+background:#DCDEE6;
+text-align:center;
+height:100%;
+position:fixed;
+padding-top:45px;
+}
+.sidebar a{
+    display:block;
+    width:100%;
+    padding:10px 25px;
+    text-decoration:none;
+    color:#57D9C6;
+}
+.content{
+    margin-left:20%;
+}
+
+
+
